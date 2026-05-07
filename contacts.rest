@@ -1,5 +1,11 @@
 ### Home route
 GET http://localhost:3000/
 
-### Contacts route
+### Get all contacts
 GET http://localhost:3000/contacts
+
+### Get single contact by ID (path parameter)
+GET http://localhost:3000/contacts/69fc6a01f92c8fb14defb02a
+
+### Get single contact by ID (query parameter)
+GET http://localhost:3000/contacts/query?id=69fc6a01f92c8fb14defb02a
