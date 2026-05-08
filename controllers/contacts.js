@@ -10,7 +10,7 @@ const getAll = async (req, res) => {
   const contacts = await result.toArray();
 
   res.setHeader('Content-Type', 'application/json');
-  res.status(200).json(contacts);
+  res.status(200).send(JSON.stringify(contacts, null, 2));
 };
 
 
@@ -33,7 +33,7 @@ const getSingle = async (req, res) => {
   const contacts = await result.toArray();
 
   res.setHeader('Content-Type', 'application/json');
-  res.status(200).json(contacts[0]);
+  res.status(200).send(JSON.stringify(contacts[0], null, 2));
 };
 
 
