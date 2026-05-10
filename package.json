@@ -22,9 +22,12 @@
   },
   "homepage": "https://github.com/aguer47/webservices#readme",
   "dependencies": {
+    "body-parser": "^2.2.2",
     "dotenv": "^17.4.2",
     "express": "^5.2.1",
-    "mongodb": "^7.2.0"
+    "mongodb": "^7.2.0",
+    "swagger-autogen": "^2.23.7",
+    "swagger-ui-express": "^5.0.1"
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",
