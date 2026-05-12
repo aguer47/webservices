@@ -1,17 +1,14 @@
 ### Home route
-GET http://localhost:3000/
+GET https://webservices-6cvg.onrender.com/
 
 ### Get all contacts
-GET http://localhost:3000/contacts
+GET https://webservices-6cvg.onrender.com/contacts
 
-### Get single contact by ID (path parameter)
-GET http://localhost:3000/contacts/69fc6a01f92c8fb14defb02a
-
-### Get single contact by ID (query parameter)
-GET http://localhost:3000/contacts/query?id=69fc6a01f92c8fb14defb02a
+### Get single contact by ID
+GET https://webservices-6cvg.onrender.com/contacts/69fc6a01f92c8fb14defb02a
 
 ### Create a new contact
-POST http://localhost:3000/contacts
+POST https://webservices-6cvg.onrender.com/contacts
 Content-Type: application/json
 
 {
@@ -23,7 +20,7 @@ Content-Type: application/json
 }
 
 ### Update a contact
-PUT http://localhost:3000/contacts/69fc6a01f92c8fb14defb02a
+PUT https://webservices-6cvg.onrender.com/contacts/69fc6a01f92c8fb14defb02a
 Content-Type: application/json
 
 {
@@ -35,4 +32,4 @@ Content-Type: application/json
 }
 
 ### Delete a contact
-DELETE http://localhost:3000/contacts/69fc6a01f92c8fb14defb02a
+DELETE https://webservices-6cvg.onrender.com/contacts/69fc6a01f92c8fb14defb02a
