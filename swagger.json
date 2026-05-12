@@ -8,7 +8,6 @@
   "host": "webservices-6cvg.onrender.com",
   "basePath": "/",
   "schemes": [
-    "http",
     "https"
   ],
   "paths": {

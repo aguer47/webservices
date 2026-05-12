@@ -6,7 +6,7 @@ const doc = {
     description: 'contacts API with Express and MongoDB'
   },
   host: 'webservices-6cvg.onrender.com',
-  schemes: ['http', 'https']
+  schemes: ['https']
 };
 
 const outputFile = './swagger.json';
