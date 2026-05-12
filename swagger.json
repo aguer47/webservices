@@ -167,5 +167,8 @@
         }
       }
     }
-  }
+  },
+  "excludePaths": [
+    "/swagger.json"
+  ]
 }
