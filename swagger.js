@@ -5,11 +5,11 @@ const doc = {
     title: 'Contacts API',
     description: 'contacts API with Express and MongoDB'
   },
-  host: 'localhost:3000',
-  schemes: ['http', 'https']
+  host: 'https://webservices-6cvg.onrender.com',
+  schemes: ['https']
 };
 
-const outputFile = './swagger_output.json';
+const outputFile = './swagger.json';
 const endpointsFiles = ['./server.js'];
 
 swaggerautogen(outputFile, endpointsFiles, doc);

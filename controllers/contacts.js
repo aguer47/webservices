@@ -12,11 +12,11 @@ const getAll = async (req, res) => {
   res.status(200).send(JSON.stringify(contacts, null, 2));
 };
 
-// GET ONE contact by ID (supports path or query parameter)
+// GET ONE contact by ID (path parameter only)
 const getSingle = async (req, res) => {
-  const id = req.params.id || req.query.id;
+  const id = req.params.id;
   if (!id) {
-    return res.status(400).json({ message: 'Missing id parameter' });
+    return res.status(400).json({ message: 'Missing id parameter in path' });
   }
 
   const userId = new ObjectId(id);
