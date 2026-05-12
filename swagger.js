@@ -5,7 +5,7 @@ const doc = {
     title: 'Contacts API',
     description: 'contacts API with Express and MongoDB'
   },
-  host: 'localhost:3000',
+  host: 'webservices-6cvg.onrender.com',
   schemes: ['http', 'https']
 };
 
