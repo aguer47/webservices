@@ -18,6 +18,11 @@ app.get('/', (req, res) => {
   res.send('Hello World');
 });
 
+// Serve swagger.json file
+app.get('/swagger.json', (req, res) => {
+  res.sendFile('./swagger.json', { root: __dirname });
+});
+
 app.use('/contacts', require('./routes/contacts'));
 app.use('/api-docs', swaggerui.serve, swaggerui.setup(swaggerDocument));
 
